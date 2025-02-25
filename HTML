@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+   <html lang="en">
+      <head>
+           <meta charset="UTF-8">
+           <meta http-equiv="X-UA-Compatible" content="IE=edge">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <title>TRAVEL</title>
+           <!--css-->
+           <link rel="stylesheet" href="/myfile.css">
+           <link rel="shortcut icon" href="images/fav-icon.png">
+           <!--pop font-->
+           <link rel="preconnect" href="https://fonts.googleapis.com">
+           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+           <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+           <!--font awesome-for-icons------->
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+            <!-- Link Swiper's CSS -->
+           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+
+        </head>
+            <body>
+           <!--NAVIGATION------>
+           <nav class="navigation">
+             <!--logo---------------------->
+             <a href="#" class="logo">
+                <i class="fa-brands fa-phoenix-framework"></i>
+                 Travel
+             </a>
+             <!--menu--------------------->
+             <ul class="menu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Trending Package</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Profile </a></li>
+             </ul>
+             <!--book btn-->
+             <a href="#" class="book-now-btn">Register</a>
+           </nav> <!--nav--end-------->
+
+           <!------main------>
+           <section id="main">
+
+              <div class="main-content">
+                  <!--text------->
+                  <div class="main-text">
+                       <strong>Explore The World
+                        <i class="fa-solid fa-earth-americas"></i>
+                       </strong>
+                       <h1>It's a Big World Out There, Meet New People</h1>
+                       <p>Job fill your pocket, Adventures fill your soul</p>
+                       <a href="#">Book Online</a>
+                  </div>
+                 <!-----image-->
+                 <div class="main-img">
+                     <img src="images/main.png" alt="Traveling">
+                 </div>
+              </div>
+
+              <!-----------------------------------------------------------------------------------------search------>
+              <div class="search-tour">
+                  <form>
+                     <!-----location-->
+                     <div class="t-search-box">
+                        <!----icon---->
+                        <div class="s-b-icon">
+                           <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <!----input---->
+                        <div class="s-b-input">
+                           <span>Location <i class="fas fa-chevron-down"></i></span>
+                           <input type="text" name="location" placeholder="tamil nadu, IND" required/>
+                        </div>
+                     </div>
+                      <!-----date-->
+                      <div class="t-search-box">
+                          <!----icon---->
+                              <div class="s-b-icon">
+                              <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                   <!----input---->
+                                 <div class="s-b-input">
+                             <span>Tour Date<i class="fas fa-chevron-down"></i></span>
+                             <input type="date"  required/>
+                           </div>
+                       </div>
+
+                       <!-----Guest-------------------->
+                     <div class="t-search-box">
+                        <!----icon---->
+                        <div class="s-b-icon">
+                           <i class="fas fa-user"></i>
+                        </div>
+                        <!----input---->
+                        <div class="s-b-input">
+                           <span>Persons<i class="fas fa-chevron-down"></i></span>
+                           <input type="number" name="Persons" placeholder="5 Tourist" required/>
+                        </div>
+                     </div>
+
+                     <!---btn------->
+                     <div class="t-search-btn">
+                        <button>
+                           <i class="fas fa-search"></i>
+                        </button>
+                     </div>
+
+                  </form>
+              </div>
+           </section><!----------------------------main end------->
+               <!---trending-->
+             <section id="trending">
+
+               <!-------heading-->
+             <div class="trending-heading">
+               <h2>Trending Package</h2>
+               <p>Bucket List Travel, The most people liked tourist package</p>
+             </div> 
+            <!---============box container=============-->
+            <div class="trending-box-containar">
+
+               <!-- Swiper -->
+                      <div class="swiper mySwiper">
+                          <div class="swiper-wrapper">
+                            <!----slide 1------->
+                               <div class="swiper-slide">
+                                          <!---box------->
+                                   <div class="trending-box">
+                                         <!------img--------->
+                                       <div class="t-b-img">
+                                            <img src="images/forest.jpg" alt="Trending 1">
+                                         </div> 
+                                              <!-----text------->
+                                          <div class="t-b-text">
+                                             <a href="#">Wild Life | Amazon Forest</a>
+                                             <span>12 Places | 3 Activites </span>
+                                             <span class="rating">⭐⭐⭐⭐⭐</span>
+                                             <span class="reviews">Reviews</span>
+                                          </div>   
+                                              <!----price and book------>
+                                            <div class="price-book">
+                                                 <span class="t-price">₹ 15,000</span>
+                                                   <a href="#" class="t-book">Book Now</a>
+                                            </div>
+                                                    <!----agency----->
+                                             <div class="agency-name">
+                                                <img src="images/Agency_Name.png" alt="Agency Logo">
+                                                    <span>Parthi Agency</span>
+                                             </div>
+                                       </div>
+                                 </div><!---slide end------>
+
+                            <!----slide 2------->
+                            <div class="swiper-slide">
+                              <!---box------->
+                       <div class="trending-box">
+                             <!------img--------->
+                           <div class="t-b-img">
+                                <img src="images/paris.jpg" alt="Trending 1">
+                             </div> 
+                                  <!-----text------->
+                              <div class="t-b-text">
+                                 <a href="#">Eiffel tower | Paris</a>
+                                 <span>10 Places | 10 Activites </span>
+                                 <span class="rating">⭐⭐⭐⭐</span>
+                                 <span class="reviews">Reviews</span>
+                              </div>   
+                                  <!----price and book------>
+                                <div class="price-book">
+                                     <span class="t-price">₹ 30,000</span>
+                                       <a href="#" class="t-book">Book Now</a>
+                                </div>
+                                        <!----agency----->
+                                 <div class="agency-name">
+                                    <img src="images/Agency_Name.png" alt="Agency Logo">
+                                        <span>Parthi Agency</span>
+                                 </div>
+                           </div>
+                     </div><!---slide end------>
+
+                                                 <!----slide 3------->
+                                                 <div class="swiper-slide">
+                                                   <!---box------->
+                                            <div class="trending-box">
+                                                  <!------img--------->
+                                                <div class="t-b-img">
+                                                     <img src="images/tajmahal.webp" alt="Trending 1">
+                                                  </div> 
+                                                       <!-----text------->
+                                                   <div class="t-b-text">
+                                                      <a href="#">Taj Mahal | India</a>
+                                                      <span>10 Places | 6 Activites </span>
+                                                      <span class="rating">⭐⭐⭐⭐⭐</span>
+                                                      <span class="reviews">Reviews</span>
+                                                   </div>   
+                                                       <!----price and book------>
+                                                     <div class="price-book">
+                                                          <span class="t-price">₹ 10,000</span>
+                                                            <a href="#" class="t-book">Book Now</a>
+                                                     </div>
+                                                             <!----agency----->
+                                                      <div class="agency-name">
+                                                         <img src="images/Agency_Name.png" alt="Agency Logo">
+                                                             <span>Parthi Agency</span>
+                                                      </div>
+                                                </div>
+                                          </div><!---slide end------>
+
+                                    <!----slide 4------->
+                               <div class="swiper-slide">
+                                 <!---box------->
+                          <div class="trending-box">
+                                <!------img--------->
+                              <div class="t-b-img">
+                                   <img src="images/china.jpg" alt="Trending 1">
+                                </div> 
+                                     <!-----text------->
+                                 <div class="t-b-text">
+                                    <a href="#">Great wall | china</a>
+                                    <span>11 Places | 8 Activites </span>
+                                    <span class="rating">⭐⭐⭐⭐⭐</span>
+                                    <span class="reviews">Reviews</span>
+                                 </div>   
+                                     <!----price and book------>
+                                   <div class="price-book">
+                                        <span class="t-price">₹ 10,000</span>
+                                          <a href="#" class="t-book">Book Now</a>
+                                   </div>
+                                           <!----agency----->
+                                    <div class="agency-name">
+                                       <img src="images/Agency_Name.png" alt="Agency Logo">
+                                           <span>Parthi Agency</span>
+                                    </div>
+                              </div>
+                        </div><!---slide end------>
+                                                  <!----slide 5------->
+                                                    <div class="swiper-slide">
+                                                      <!---box------->
+                                               <div class="trending-box">
+                                                     <!------img--------->
+                                                   <div class="t-b-img">
+                                                        <img src="images/Dubai.webp" alt="Trending 1">
+                                                     </div> 
+                                                          <!-----text------->
+                                                      <div class="t-b-text">
+                                                         <a href="#">Dubai</a>
+                                                         <span>15 Places | 10 Activites </span>
+                                                         <span class="rating">⭐⭐⭐</span>
+                                                         <span class="reviews">Reviews</span>
+                                                      </div>   
+                                                          <!----price and book------>
+                                                        <div class="price-book">
+                                                             <span class="t-price">₹ 20,000</span>
+                                                               <a href="#" class="t-book">Book Now</a>
+                                                        </div>
+                                                                <!----agency----->
+                                                         <div class="agency-name">
+                                                            <img src="images/Agency_Name.png" alt="Agency Logo">
+                                                                <span>Parthi Agency</span>
+                                                         </div>
+                                                   </div>
+                                             </div><!---slide end------>
+
+                           </div>
+                          <div class="swiper-pagination"></div>
+                      </div>
+             </div>
+      </section><!-----end-->
+
+
+
+      <!-----------destination-------->
+         <section id="destination">
+
+            <!-----heading------->
+                <div class="destination-heading">
+                   <h2>TOP Destinations</h2>
+                   <p>Most Popular Tourist Destinations </p>
+                </div>    
+                <!----grid--------->
+                <div class="destination-grid">
+                  <!----box   1------>
+                  <div class="destination-box d-b-1">
+                     <img src="images/d-1.jpg" alt="destination">
+                     <!------text------>
+                     <div class="d-b-text-container">
+                        <span class="ratio">⭐3.5</span>
+                        <div class="d-b-text">
+                           <strong>Turkey</strong>
+                           <span>hot air balloon ride</span>
+                        </div>
+                     </div>
+                  </div>
+                  <!----box   2------>
+                  <div class="destination-box d-b-2">
+                     <img src="images/d-2.jpg" alt="destination">
+                     <!------text------>
+                     <div class="d-b-text-container">
+                        <span class="ratio">⭐4</span>
+                        <div class="d-b-text">
+                           <strong>Mountain</strong>
+                           <span>Hiking</span>
+                        </div>
+                     </div>
+                  </div>                  
+                  <!----box   3------>
+                  <div class="destination-box d-b-3">
+                     <img src="images/d-3.jpg" alt="destination">
+                     <!------text------>
+                     <div class="d-b-text-container">
+                        <span class="ratio">⭐3.5</span>
+                        <div class="d-b-text">
+                           <strong>Vientam</strong>
+                           <span>water fall</span>
+                        </div>
+                     </div>
+                  </div>
+                  <!----box   4------>
+                  <div class="destination-box d-b-4">
+                     <img src="images/d-4.jpg" alt="destination">
+                     <!------text------>
+                     <div class="d-b-text-container">
+                        <span class="ratio">⭐5</span>
+                        <div class="d-b-text">
+                           <strong>Dubai</strong>
+                           <span>Skydiving</span>
+                        </div>
+                     </div>
+                  </div>
+                  <!----box   5------>
+                  <div class="destination-box d-b-5">
+                     <img src="images/d-5.jpg" alt="destination">
+                     <!------text------>
+                     <div class="d-b-text-container">
+                        <span class="ratio">⭐5</span>
+                        <div class="d-b-text">
+                           <strong>Andaman</strong>
+                           <span>Boat ride</span>
+                        </div>
+                     </div>
+                  </div>                
+                  <!----box   6------>
+                  <div class="destination-box d-b-6">
+                     <img src="images/d-6.jpg" alt="destination">
+                     <!------text------>
+                     <div class="d-b-text-container">
+                        <span class="ratio">⭐3</span>
+                        <div class="d-b-text">
+                           <strong>Forest</strong>
+                           <span>Trekking</span>
+                        </div>
+                     </div>
+                  </div>
+               </div> 
+   </section> <!------------section end----->
+
+        <!---=========testimonials============-------->
+        <section id="testimonials">
+
+         <!---img--------->
+         <div class="testimonials-img">
+            <img src="images/testimonials-img.png" alt="Tour Testimonials">
+         </div>
+
+         <!------slider------->
+         <div class="testimonials-slider">
+
+             <!-- Swiper -->
+                      <div class="swiper mySwipertest">
+                          <div class="swiper-wrapper">
+                           <!------slider 1----->
+                              <div class="swiper-slide">
+                               <!-----box------>
+                               <div class="testimonials-box">
+                                 <!----text------>
+                                  <div class="testimonials-box-text">
+                                      <i class="fas fa-quote-left"></i>
+                                           <p>From stunning beaches to breathtaking landscapes</p>
+                                             <strong> Explore the best of the USA</strong>
+                                 </div>
+                                            <!---img-------->
+                                         <div class="testimonials-box-img">
+                                        <img src="images/t-member.jpg" alt="Testimonials">
+                                   </div>
+                              </div>
+                              </div> <!-----slide end------> 
+
+                                                         <!------slider 2----->
+                              <div class="swiper-slide">
+                               <!-----box------>
+                               <div class="testimonials-box">
+                                 <!----text------>
+                                  <div class="testimonials-box-text">
+                                      <i class="fas fa-quote-left"></i>
+                                           <p>From stunning beaches to breathtaking landscapes</p>
+                                             <strong> Explore the best of the USA</strong>
+                                 </div>
+                                            <!---img-------->
+                                         <div class="testimonials-box-img">
+                                        <img src="images/t-member.jpg" alt="Testimonials">
+                                   </div>
+                              </div>
+                              </div> <!-----slide end------> 
+                           <!------slider 3----->
+                           <div class="swiper-slide">
+                              <!-----box------>
+                              <div class="testimonials-box">
+                                <!----text------>
+                                 <div class="testimonials-box-text">
+                                     <i class="fas fa-quote-left"></i>
+                                          <p>From stunning beaches to breathtaking landscapes</p>
+                                            <strong> Explore the best of the USA</strong>
+                                </div>
+                                           <!---img-------->
+                                        <div class="testimonials-box-img">
+                                       <img src="images/t-member.jpg" alt="Testimonials">
+                                  </div>
+                             </div>
+                             </div> <!-----slide end------> 
+                           <!------slider 4----->
+                           <div class="swiper-slide">
+                              <!-----box------>
+                              <div class="testimonials-box">
+                                <!----text------>
+                                 <div class="testimonials-box-text">
+                                     <i class="fas fa-quote-left"></i>
+                                          <p>From stunning beaches to breathtaking landscapes</p>
+                                            <strong> Explore the best of the USA</strong>
+                                </div>
+                                           <!---img-------->
+                                        <div class="testimonials-box-img">
+                                       <img src="images/t-member.jpg" alt="Testimonials">
+                                  </div>
+                             </div>
+                             </div> <!-----slide end------>                                                     
+
+                           </div>
+                               <div class="swiper-pagination"></div>
+                      </div>
+
+         </div>
+
+        </section> <!------testimonials section end-------->
+
+       <!----====newsletter======-->
+       <section id="newsletter">
+         <h3>Newsletter</h3>
+         <P>Enter your Email adress here to send new offers and news</P>
+         <form>
+            <input type="email" placeholder="Enter Your Email" required>
+            <button>
+               <i class="fas fa-paper-plane"></i>
+            </button>
+         </form>
+       </section> <!-----newsletter section end----->
+
+  <!--==footer===============================-->
+  <footer>
+   <!--container**********************-->
+   <div class="footer-container">
+
+       <!--footer-box********************-->
+       <div class="footer-box">
+           <strong><i class="fab fa-phoenix-framework"></i> Travel</strong>
+           <p>Job fill your pocket, Adventures fill your soul</p>
+           <div class="footer-social">
+               <a href="#">
+                   <i class="fab fa-facebook-f"></i>
+               </a>
+               <a href="#">
+                   <i class="fab fa-twitter"></i>
+               </a>
+               <a href="#">
+                   <i class="fab fa-instagram"></i>
+               </a>
+           </div>
+       </div>
+
+       <!--footer-box***********************-->
+       <div class="footer-box">
+           <strong>Links</strong>
+           <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Destinations</a></li>
+               <li><a href="#">Trending</a></li>
+               <li><a href="#">Book Online</a></li>
+               <li><a href="#">Contact</a></li>
+           </ul>
+       </div>
+
+
+       <!--footer-box***********************-->
+       <div class="footer-box">
+           <strong>Social</strong>
+           <ul>
+               <li><a href="#">Fasebook</a></li>
+               <li><a href="#">instagram</a></li>
+               <li><a href="#">twitter</a></li>
+               <li><a href="#">Linkedin</a></li>
+           </ul>
+       </div>
+
+       <!--**Footer-box*******************-->
+       <div class="footer-box">
+           <strong>Contact</strong>
+           <span><i class="fas fa-map-marker-alt"></i>Coimbatore,Tamil Nadu</span>
+           <span><i class="far fa-envelope"></i> <a href="#">masspb59@gmail.com</a></span>
+           <span><i class="fas fa-phone-square-alt"></i><a href="#">+91 9360787147</a></span>
+       </div>
+
+   </div>
+</footer>
+<span class="copyright">Copyright ©2023 All rights reserved | Made by R.Partheeban</span>
+
+
+      <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      },
+    });
+
+       /*testimonials*/
+       var swiper = new Swiper(".mySwipertest", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+
+
+  </script>
+
+
+
+
+   </body>
+</html>
